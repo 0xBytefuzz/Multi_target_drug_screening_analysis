@@ -11,14 +11,15 @@ log文件存放
 
 ##### 控制 
 
-主要参数
-rule = re.compile('^[A-Z]{1}.*$')  #正则表达式用于控参与分析的log文件
+**主要参数**
 
-Threshold_value_a = -6.5 #该值用于控制参与多靶点击中分析结合能阈值
+rule = re.compile('^[A-Z]{1}.*$') **#正则表达式用于控参与分析的log文件**
 
-Threshold_value_b = -8  #该值用于控制单个靶点击中分析结果
+Threshold_value_a = -6.5 **#该值用于控制参与多靶点击中分析结合能阈值**
 
-multi_target_threshold = 10 #该值用于控制多靶点筛选结果top10
+Threshold_value_b = -8  **#该值用于控制单个靶点击中分析结果**
+
+multi_target_threshold = 10 **#该值用于控制多靶点筛选结果top10**
 
 #### 分析结果
 
