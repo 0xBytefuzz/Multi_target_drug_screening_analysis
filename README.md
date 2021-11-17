@@ -5,4 +5,6 @@
 
 执行脚本**python  ./Multi-target-drug-screening.py**
 
-出现分析完的结果文件
+检查分析完的结果文件
+
+多个靶标及击中次数文件位于**Multi-target-result**
