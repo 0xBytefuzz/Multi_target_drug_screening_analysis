@@ -59,6 +59,11 @@ while f_i <  f_n:
             f.write(" 0")
             f.write('\n')
             d[mol_name] = int(0)
+        elif line.startswith('terminate called '):
+            print("0")
+            f.write(" 0")
+            f.write('\n')
+            d[mol_name] = int(0)           
     d_order = sorted(d.items(), key=lambda x: x[1], reverse=False)
     f.write("\n" + Dividing_line + 'score < -6 result' + Dividing_line + "\n")
     print("\n" + Dividing_line + 'score < -6 result' + Dividing_line + "\n")
